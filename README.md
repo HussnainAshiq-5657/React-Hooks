@@ -1,16 +1,85 @@
-# React + Vite
+📘 React Hooks Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a hands-on React application focused on learning and practicing React Hooks, Custom Hooks, and Higher-Order Components (HOC).
+Each concept is implemented in a separate, reusable, and easy-to-understand component.
 
-Currently, two official plugins are available:
+🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚛️ React (Vite)
+🧠 React Hooks
+🎨 Tailwind CSS
+🧩 JavaScript (ES6+)
 
-## React Compiler
+REACT HOOKS
+│
+├── node_modules/
+├── public/
+│
+├── src/
+│ ├── assets/
+│ │
+│ ├── CustomHooks/
+│ │ ├── useFetch.js # Custom hook for API fetching
+│ │ ├── useForm.js # Custom hook for form handling
+│ │ └── useToggle.js # Custom hook for toggle state
+│ │
+│ ├── HOC/
+│ │ └── withStyle.jsx # Higher Order Component for styling
+│ │
+│ ├── Hooks/
+│ │ ├── ActivityFeature.jsx
+│ │ ├── EffectEventForm.jsx
+│ │ ├── EffectEventHook.jsx
+│ │ ├── FetchTest.jsx
+│ │ ├── FormComponent.jsx
+│ │ ├── FormTest.jsx
+│ │ ├── HomeComponent.jsx
+│ │ ├── LayoutChat.jsx
+│ │ ├── LayoutExample1.jsx
+│ │ ├── LayoutExample2.jsx
+│ │ ├── ReducerFormData.jsx
+│ │ ├── ReducerHook.jsx
+│ │ ├── ToggleTest.jsx
+│ │ └── UseLayoutEffect.jsx
+│ │
+│ ├── App.jsx
+│ ├── Greetings.jsx
+│ ├── GreetingswithStyle.jsx
+│ ├── index.css
+│ ├── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🧠 Concepts Covered
+✅ Core React Hooks
 
-## Expanding the ESLint configuration
+useState
+useEffect
+useLayoutEffect
+useReducer
+useRef
+useContext
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Custom Hooks
+
+useFetch – reusable API fetching logic
+useForm – reusable form state & submission handling
+useToggle – toggle boolean states easily
+
+✅ Higher Order Components (HOC)
+
+withStyle – adds reusable styling behavior to components
+
+✅ Real-world Examples
+
+Form handling
+API fetching
+Event handling
+Layout measurement
+Reducer-based state management
