@@ -8,6 +8,10 @@ import EffectEventHook from './Hooks/EffectEventHook';
 import EffectEventForm from './Hooks/EffectEventForm';
 import ActivityFeature from './Hooks/ActivityFeature';
 import ToggleTest from './Hooks/ToogleTest';
+import FetchTest from './Hooks/FetchTest';
+import FormTest from './Hooks/FormTest';
+import Greetings from './Greetings';
+import GreetingsWithStyle from './GreetingwithStyle';
 
 function App() {
   return (
@@ -33,8 +37,13 @@ function App() {
       <ActivityFeature />
        */}
 
-      {/* Custom Hooks  */}
+      {/* Custom Hooks  
       <ToggleTest />
+      <FetchTest />
+      <FormTest />
+      */}
+      <Greetings name={'Yahoo Baba'} />
+      <GreetingsWithStyle name={'Sanchit!'} />
     </>
   );
 }
