@@ -7,6 +7,8 @@ import LayoutChat from './Hooks/LayoutChat';
 import EffectEventHook from './Hooks/EffectEventHook';
 import EffectEventForm from './Hooks/EffectEventForm';
 import ActivityFeature from './Hooks/ActivityFeature';
+import ToggleTest from './Hooks/ToogleTest';
+
 function App() {
   return (
     <>
@@ -27,7 +29,12 @@ function App() {
        <EffectEventForm />
     UseEffectEvent Hook.............. */}
 
+      {/* Activity Feature in React ......... New in React
       <ActivityFeature />
+       */}
+
+      {/* Custom Hooks  */}
+      <ToggleTest />
     </>
   );
 }
