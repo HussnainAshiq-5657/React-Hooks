@@ -13,6 +13,7 @@ import GreetingsWithStyle from './GreetingwithStyle';
 import FetchTest from './Hooks/FetchTest';
 import FormTest from './Hooks/FormTest';
 import WithDataPostList from './Hooks/WithDataPostList';
+import WithAuthDashborad from './Hooks/WithAuthDashboard';
 function App() {
   return (
     <>
@@ -39,15 +40,15 @@ function App() {
 
       {/* Custom Hooks  
       <ToggleTest />
-     
+       <FetchTest />
       <FormTest />
       */}
       {/* Higher Order Components
           <Greetings name={'Yahoo Baba'} />
       <GreetingsWithStyle name={'Sanchit!'} />
-      */}
-      <FetchTest />
       <WithDataPostList />
+      */}
+      <WithAuthDashborad />
     </>
   );
 }
