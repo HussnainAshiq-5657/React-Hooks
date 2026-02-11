@@ -14,6 +14,9 @@ import FetchTest from './Hooks/FetchTest';
 import FormTest from './Hooks/FormTest';
 import WithDataPostList from './Hooks/WithDataPostList';
 import WithAuthDashborad from './Hooks/WithAuthDashboard';
+import RefHook from './Hooks/RefHook';
+import FormStatus from './Hooks/FormStatus';
+import TransitionButton from './Hooks/TransitionButton';
 function App() {
   return (
     <>
@@ -47,8 +50,19 @@ function App() {
           <Greetings name={'Yahoo Baba'} />
       <GreetingsWithStyle name={'Sanchit!'} />
       <WithDataPostList />
-      */}
       <WithAuthDashborad />
+      */}
+      {/* UseRef Hook 
+      <RefHook />
+      */}
+      {/* UseFormStatus Hook
+      <FormStatus />
+      */}
+      <FormStatus />
+
+      {/* UseTransition 
+       <TransitionButton />
+      */}
     </>
   );
 }
